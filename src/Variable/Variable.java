@@ -55,7 +55,11 @@ public class Variable {
 		System.out.printf("[%20.10f]%n",abc); // 총 15자리 중 소수점 10자리까지 표현 하고 없는 소수점 값은 0으로 채움/ 정수는 0으로 안채움
 		System.out.printf("[%020.10f]%n",abc); // 총 15자리 중 소수점 10자리까지 표현 하고 없는 값은 0으로 채움 / 정수 0으로 채움
 		
-		
+		String s=123+"";
+		StringBuilder sb=new StringBuilder(s);
+		sb.reverse();
+		String ab= sb.toString();
+		Long.parseLong(ab);
 		
 		
 	}
