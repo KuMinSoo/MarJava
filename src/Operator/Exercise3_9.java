@@ -12,6 +12,9 @@ public class Exercise3_9 {
 		System.out.println("ch:"+ch1);
 		System.out.println("ch to lowerCase:"+lowerCase);
 		
+		//System.out.println(Integer.parseInt("100/10"));
+		
+		
 	}
 
 }
