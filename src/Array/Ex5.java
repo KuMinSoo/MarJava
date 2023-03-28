@@ -15,6 +15,10 @@ public class Ex5 {
 			}
 			System.out.println();
 		}
+		
+		
+		boolean aa=(0.3+0.2==0.5)?true:false;
+		System.out.println(aa);
 	}
 
 }
